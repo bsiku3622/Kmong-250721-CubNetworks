@@ -12,7 +12,7 @@ const PartnersCard = ({ partnerNames }: PartnersCardProps) => {
         "tablet:grid tablet:grid-cols-4",
         "laptop:py-[80px] laptop:px-[80px]"
       )}>
-      {partnerNames.map((items, index) => {
+      {partnerNames.map((items, _) => {
         return (
           <div className="w-full flex items-center justify-center">{items}</div>
         );
