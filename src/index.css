@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/PretendardVariable.woff2") format("woff2-variations");
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  src: url("./assets/fonts/BebasNeue-Regular.woff");
+}
+
+@font-face {
+  font-family: "Black Han Sans";
+  font-weight: normal;
+  src: url("./assets/fonts/BlackHanSans-Regular.ttf");
+}
+
+:root {
+  font-family: "Pretendard Variable", sans-serif;
+}
+
+.black-han-sans {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-tablet: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1440px;
+}
