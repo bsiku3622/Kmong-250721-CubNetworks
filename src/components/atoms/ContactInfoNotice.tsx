@@ -19,7 +19,7 @@ const ContainerStyle = clsx(
 );
 
 const recuitTextContainerStyle = clsx(
-  "flex flex-col items-start gap-[10px] text-neutral-900 px-[30px] py-[20px] bg-white w-full tablet:w-1/2 tablet:flex-shrink-0 w-full",
+  "flex flex-col items-start gap-[10px] text-neutral-900 px-[30px] pt-[20px] pb-[40px] bg-white w-full tablet:w-1/2 tablet:flex-shrink-0 w-full",
   "tablet:gap-[20px] tablet:px-[40px] tablet:py-[40px]"
 );
 
